@@ -1,0 +1,87 @@
+.body_obrigado {
+  color: #3f6145;
+  background-color: #ffe587;
+}
+.space-book {
+  min-height: 70px;
+}
+.book {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.img-book {
+  width: 35%;
+}
+.text-book {
+  width: 34%;
+  text-align: center;
+  font-size: 30px;
+  padding-left: 60px;
+  font-family: Robot, sans-serif;
+}
+.text-acessa {
+  margin-top: 5%;
+  text-align: center;
+}
+.area-bt {
+  text-align: center;
+  padding-top: 10px;
+}
+.bt-acessa {
+  background-color: #ffffff; /* Cor de fundo: vermelho */
+  color: #3f6145; /* Cor do texto: amarelo dourado */
+  border: none; /* Remove bordas */
+  padding: 8px 1px; /* Espaçamento interno */
+  text-align: center; /* Alinha o texto ao centro */
+  text-decoration: none; /* Remove sublinhado do link */
+  display: inline-block; /* Permite ajustar largura e altura */
+  font-size: 19px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem externa */
+  cursor: pointer; /* Muda o cursor ao passar por cima */
+  border-radius: 18px; /* Arredonda os cantos */
+  font-weight: bold; /* Texto em negrito */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+.bt-acessa:hover {
+  background-color: #3f6145; /* Cor de fundo: marrom */
+  color: #ffffff; /* Cor do texto: branco */
+}
+.conheca {
+  padding-bottom: 3%;
+}
+.footer {
+  background-color: #3f6145;
+}
+.redes_sociais {
+  place-self: center;
+}
+.bt-rede {
+  width: 50px;
+  margin: 23px;
+}
+.link {
+  text-decoration: none;
+  padding: 53px;
+  color: #3f6145;
+}
+.link:hover {
+  color: white;
+}
+@media screen and (max-width: 700px) {
+  .book {
+    display: contents;
+  }
+  .interesse {
+    width: 100%;
+    text-align: center;
+  }
+  .img-book {
+    width: 80%;
+  }
+  .text-book {
+    place-self: center;
+    width: 100%;
+    padding: 0;
+  }
+}

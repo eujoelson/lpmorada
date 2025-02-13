@@ -1,0 +1,74 @@
+.section-erro {
+  background-color: #ffe587;
+}
+.pag-erro {
+  font-family: roboto, sans-serif;
+}
+.erro {
+  place-items: center;
+  color: #3f6145;
+}
+.text-404 {
+  font-size: 18rem;
+}
+
+.pg-erro {
+  font-size: 40px;
+}
+.area-bt-erro {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+.bt-acessa-erro {
+  background-color: #ffffff; /* Cor de fundo: vermelho */
+  color: #3f6145; /* Cor do texto: amarelo dourado */
+  border: none; /* Remove bordas */
+  padding: 8px 1px; /* Espaçamento interno */
+  text-align: center; /* Alinha o texto ao centro */
+  text-decoration: none; /* Remove sublinhado do link */
+  display: inline-block; /* Permite ajustar largura e altura */
+  font-size: 19px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem externa */
+  cursor: pointer; /* Muda o cursor ao passar por cima */
+  border-radius: 18px; /* Arredonda os cantos */
+  font-weight: bold; /* Texto em negrito */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+.bt-acessa-erro:hover {
+  background-color: #3f6145; /* Cor de fundo: marrom */
+  color: #ffffff; /* Cor do texto: branco */
+}
+.link {
+  text-decoration: none;
+  padding: 53px;
+  color: #3f6145;
+}
+.link:hover {
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .text-404 {
+    font-size: 7rem;
+    padding-top: 30%;
+  }
+  .pg-erro {
+    font-size: 24px;
+  }
+  .area-bt-erro {
+    padding-top: 32%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .text-404 {
+    padding-top: 70%;
+  }
+  .pg-erro {
+    font-size: 14px;
+  }
+  .area-bt-erro {
+    padding-top: 42%;
+  }
+}
