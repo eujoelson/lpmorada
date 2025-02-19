@@ -67,14 +67,14 @@ function Formulario() {
   return (
     <div className="sectionForm" id="form">
       <ToastContainer />
-      <div class="space-form">
-        <img src="../morada/Asset/Secao05/FotoForm2.png" class="img-form-mobile"></img>
+      <div className="space-form">
+        <img src="../morada/Asset/Secao05/FotoForm2.png" className="img-form-mobile" alt="" />
       </div>
-      <div class="boxForm">
+      <div className="boxForm">
         <div className="container">
           <div className="row">
             <div className="boxFormSpace">
-              <h3 class="title-form">
+              <h3 className="title-form">
                 Preencha o formulário abaixo e <br /> solicite seu atendimento
                 com uma
                 <br /> de nossas vendedoras
@@ -201,46 +201,50 @@ function Formulario() {
           </div>
         </div>
       </div>
-      <div class="right">
+      <div className="right">
         <img
           src="../morada/Asset/Secao05/TextoOpiniao.png"
-          class=" img20 titulo-opn"
-        ></img>
+          className="img20 titulo-opn"
+          alt=""
+        />
       </div>
 
-      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+      <div className="embla-carousel-container">
+        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+      </div>
 
-      <div class="social-links">
-        {/* <img src="../morada/Asset/Secao05/Rodape.png" class="img10"></img> */}
+      <div className="social-links">
+        {/* <img src="../morada/Asset/Secao05/Rodape.png" className="img10" alt="" /> */}
         <img
           src="../morada/Asset/Footer/logo_Morada_Essencial.png"
-          class="morada_logo"
-        ></img>
-        <div class="social-link3">
+          className="morada_logo"
+          alt="Logo Morada Essencial"
+        />
+        <div className="social-link3">
           <a href="https://www.instagram.com/moradaessencial/">
-            {" "}
             <img
               src="../morada/Asset/Footer/icone-instagran.png"
-              class="icone-social"
-            ></img>
+              className="icone-social"
+              alt="Instagram"
+            />
           </a>
           <a href="https://web.facebook.com/moradaessencial">
-            {" "}
             <img
               src="../morada/Asset/Footer/icone-face.png"
-              class="icone-social"
-            ></img>
+              className="icone-social"
+              alt="Facebook"
+            />
           </a>
           <a href="https://www.youtube.com/channel/UCjyZNcVscw2-eVArGuJUpfw">
-            {" "}
             <img
               src="../morada/Asset/Footer/icone-youtube.png"
-              class="icone-social"
-            ></img>
+              className="icone-social"
+              alt="YouTube"
+            />
           </a>
         </div>
-        <div class="texto-link">
-          <a class="texto-link" href="https://www.moradaessencial.com.br">
+        <div className="texto-link">
+          <a className="texto-link" href="https://www.moradaessencial.com.br">
             www.moradaessencial.com.br
           </a>
         </div>

@@ -1,7 +1,7 @@
 .embla {
   max-width: 48rem;
-  margin: auto;
-  --slide-height: 14rem;
+  margin: 0 auto;
+  --slide-height: 100%;
   --slide-spacing: 1rem;
   --slide-size: 100%;
 }
@@ -18,6 +18,10 @@
   flex: 0 0 var(--slide-size);
   min-width: 0;
   padding-left: var(--slide-spacing);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--slide-height);
 }
 .embla__slide__number {
   box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
