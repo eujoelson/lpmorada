@@ -212,8 +212,8 @@ function Formulario() {
       <div className="embla-carousel-container">
         <EmblaCarousel slides={SLIDES} options={OPTIONS} />
       </div>
-
-      <div className="social-links">
+      
+      <div className="social-links ">
         {/* <img src="../morada/Asset/Secao05/Rodape.png" className="img10" alt="" /> */}
         <img
           src="../morada/Asset/Footer/logo_Morada_Essencial.png"
@@ -249,7 +249,9 @@ function Formulario() {
           </a>
         </div>
       </div>
+      
     </div>
+    
   );
 }
 

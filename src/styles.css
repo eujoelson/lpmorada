@@ -368,7 +368,7 @@ div.boxForm {
   background-image: url("./bg/BGSecao06.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 0% 0 0% 0;
+  padding: 0% 0 10% 0%;
   height: 100%;
 
   //position: Relative;
@@ -769,6 +769,7 @@ footer {
   }
   .sectionForm {
     background-image: url("./bg/BGSecao05.png");
+    padding: 0% 0 32% 0%;
   }
 
   .boxFormSpace {
