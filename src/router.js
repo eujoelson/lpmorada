@@ -6,7 +6,7 @@ function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/morada" element={<Home />}></Route>
+        <Route path="/morada/" element={<Home />}></Route>
         <Route path="/morada/obrigado" element={<Obrigado />}></Route>
         <Route path="*" element={<Erro />}></Route>
       </Routes>

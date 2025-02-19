@@ -5,6 +5,8 @@ import Autoplay from "embla-carousel-autoplay";
 import emailjs from "@emailjs/browser";
 import EmblaCarousel from "./EmblaCarousel";
 import "./embla.css";
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const OPTIONS = ({ loop: true }, [Autoplay({ delay: 2000 })]);
 const SLIDE_COUNT = 5;
@@ -19,27 +21,36 @@ function Formulario() {
   const [informacoes, setInformacoes] = useState(false);
   const [privacidade, setPrivacidade] = useState(false);
   const handleSubmit = (event) => {
-    if (captcha !== "5") {
-      alert("Captcha incorreto");
-    } else {
-      event.preventDefault();
+    event.preventDefault(); // Previne o envio do formulário imediatamente
 
-      emailjs
-        .sendForm(          
-          "service_o2snpou",
-          "template_4kkdcqd",
-          event.target,
-          "sHTg5Au6XKJYxrygp"
-        )
-        .then((result) => {
-          console.log("SUCCESS!", result);
-          window.open("/Obrigado", '_parent');
-        })
-        .catch((error) => {
-          console.log("FAILED...", error.text);
-          window.open("/PageErro");
-        });
+    if (captcha !== "5") {
+      toast.error("Captcha incorreto. A soma de 1 + 4 esta incorreta.", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+      return; // Sai da função se o captcha estiver incorreto
     }
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        event.target,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then((result) => {
+        console.log("SUCCESS!", result);
+        window.open("/morada/Obrigado", '_parent');
+      })
+      .catch((error) => {
+        console.log("FAILED...", error.text);
+        window.open("/morada/PageErro");
+      });
 
     // Aqui você pode adicionar a lógica para enviar os dados do formulário
     console.log({
@@ -54,9 +65,10 @@ function Formulario() {
   };
 
   return (
-    <div class="sectionForm" id="form">
+    <div className="sectionForm" id="form">
+      <ToastContainer />
       <div class="space-form">
-        <img src="../Asset/Secao05/FotoForm2.png" class="img-form-mobile"></img>
+        <img src="../morada/Asset/Secao05/FotoForm2.png" class="img-form-mobile"></img>
       </div>
       <div class="boxForm">
         <div className="container">
@@ -191,7 +203,7 @@ function Formulario() {
       </div>
       <div class="right">
         <img
-          src="../Asset/Secao05/TextoOpiniao.png"
+          src="../morada/Asset/Secao05/TextoOpiniao.png"
           class=" img20 titulo-opn"
         ></img>
       </div>
@@ -199,30 +211,30 @@ function Formulario() {
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
 
       <div class="social-links">
-        {/* <img src="../Asset/Secao05/Rodape.png" class="img10"></img> */}
+        {/* <img src="../morada/Asset/Secao05/Rodape.png" class="img10"></img> */}
         <img
-          src="../Asset/Footer/logo_Morada_Essencial.png"
+          src="../morada/Asset/Footer/logo_Morada_Essencial.png"
           class="morada_logo"
         ></img>
         <div class="social-link3">
           <a href="https://www.instagram.com/moradaessencial/">
             {" "}
             <img
-              src="../Asset/Footer/icone-instagran.png"
+              src="../morada/Asset/Footer/icone-instagran.png"
               class="icone-social"
             ></img>
           </a>
           <a href="https://web.facebook.com/moradaessencial">
             {" "}
             <img
-              src="../Asset/Footer/icone-face.png"
+              src="../morada/Asset/Footer/icone-face.png"
               class="icone-social"
             ></img>
           </a>
           <a href="https://www.youtube.com/channel/UCjyZNcVscw2-eVArGuJUpfw">
             {" "}
             <img
-              src="../Asset/Footer/icone-youtube.png"
+              src="../morada/Asset/Footer/icone-youtube.png"
               class="icone-social"
             ></img>
           </a>

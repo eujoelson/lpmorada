@@ -7,7 +7,7 @@ function Finalizado() {
         <div class="space-book"></div>
         <div class="interesse">
           <div class="book">
-            <img src="../Asset/book.png" class="img-book"></img>
+            <img src="../morada/Asset/book.png" class="img-book"></img>
             <div class="text-book">
               <h1>
                 {' '}
@@ -43,15 +43,15 @@ function Finalizado() {
               href="https://www.youtube.com/channel/UCjyZNcVscw2-eVArGuJUpfw"
               target="_blank"
             >
-              <img src="../Asset/logo_youtube.png" class="bt-rede"></img>
+              <img src="../morada/Asset/logo_youtube.png" class="bt-rede"></img>
             </a>
             <a href="https://instagram.com/moradaessencial" target="_blank">
               {' '}
-              <img src="../Asset/logo_instagran.png" class="bt-rede"></img>
+              <img src="../morada/Asset/logo_instagran.png" class="bt-rede"></img>
             </a>
             <a href="https://www.facebook.com/moradaessencial" target="_blank">
               {' '}
-              <img src="../Asset/logo_face.png" class="bt-rede"></img>
+              <img src="../morada/Asset/logo_face.png" class="bt-rede"></img>
             </a>
           </div>
         </div>

@@ -353,7 +353,7 @@ div.boxForm {
   align-items: right;
   width: 32%;
   display: inline-block;
-  
+
   text-align: left;
   padding: 5% 0 5% 0;
   font-size: 10px;
@@ -441,6 +441,7 @@ div.boxForm {
 }
 .titulo-opn {
   width: 20%;
+  padding-bottom: 1%;
 }
 .texto-link {
   font-size: 20px;
@@ -496,7 +497,12 @@ footer {
 .space-form {
   display: none;
 }
-
+.img-titulo-modile {
+    display: none;
+  }
+  .imgabraco-mobile {
+    display: none;
+  }
 @media screen and (max-width: 700px) {
   .header {
     background-color: #055e51;
@@ -550,12 +556,12 @@ footer {
     align-items: center;
     width: 100%;
     display: inline-block;
-    
+
     text-align: left;
     padding: 5% 0 5% 0;
     font-size: 10px;
   }
-
+  
   @media screen and (max-width: 700px) {
     .imgflores2 {
       width: 70%;
@@ -624,6 +630,7 @@ footer {
   .titulo-local {
     width: 100%;
     padding-bottom: 2%;
+    padding-right: 2%;
   }
   .Botao-locais {
     background-color: #721324; /* Cor de fundo: vermelho */
@@ -649,11 +656,11 @@ footer {
     padding: 0;
   }
   .img-estrela {
-    width: 70%;
+    width: 50%;
   }
   .texto-estrela {
     width: 90%;
-    padding-top: 6%;
+    padding: 3% 5% 0% 5%;
   }
   .Botao-maior {
     padding: 3px 18px;
@@ -668,7 +675,7 @@ footer {
     background-image: url("./bg/BGSecao03.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 20% 0 0 0;
+    padding: 0% 0 0 0;
     height: 140%;
 
     //position: Relative;
@@ -779,8 +786,122 @@ footer {
   }
   .Botao-form {
     padding: 2px 11px;
-    font-size: 26px;
+    font-size: 20px;
     border-radius: 8px;
   }
+  .morada_logo {
+    width: 50%;
+  }
+  .icone-social {
+    width: 8%;
+  }
+  .titulo-opn {
+    width: 50%;
+    padding-bottom: 1%;
+  }
+  .texto-link {
+    font-size: 10px;
+    color: white;
+    padding-bottom: 14px;
+    font-family: initial;
+  }
+  .img-vaso {
+    width: 70%;
+  }
+  .imgabraco {
+    display: none;
+  }
 
+  .img-titulo-dife {
+    display: none;
+  }
+  .img-titulo-modile {
+    display: block;
+    width: 130%;
+    text-align: center;
+    margin-top: auto;
+    position: relative;
+    bottom: -120px;
+  }
+  .imgabraco-mobile {
+    display: inline;
+    width: 80%;
+    float: right;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 0;
+    
+    right: 0;
+  }
+  .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0;
+
+    margin-top: var(--bs-gutter-y);
+  }
+}
+
+.card-depoimento {
+  background-color: #004D40; /* Cor verde escura */
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+}
+
+.estrelas {
+  color: #FFD700; /* Cor amarela para as estrelas */
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.depoimento-texto {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.depoimento-autor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.autor-foto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.autor-nome {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .card-depoimento {
+    padding: 15px 20px;
+    margin: 10px;
+  }
+  
+  .depoimento-texto {
+    font-size: 14px;
+  }
+  
+  .autor-foto {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .autor-nome {
+    font-size: 14px;
+  }
 }
