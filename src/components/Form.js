@@ -65,12 +65,12 @@ function Formulario() {
   };
 
   return (
-    <div className="sectionForm" id="form">
+    <div className="sectionForm">
       <ToastContainer />
       <div className="space-form">
         <img src="../morada/Asset/Secao05/FotoForm2.png" className="img-form-mobile" alt="" />
       </div>
-      <div className="boxForm">
+      <div className="boxForm" id="form">
         <div className="container">
           <div className="row">
             <div className="boxFormSpace">

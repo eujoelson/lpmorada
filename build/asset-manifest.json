@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/morada/static/css/main.ff7c56b6.css",
-    "main.js": "/morada/static/js/main.0b5b7e55.js",
+    "main.css": "/morada/static/css/main.d6d7ddd9.css",
+    "main.js": "/morada/static/js/main.71fe2e62.js",
     "static/media/BGSecao06.png": "/morada/static/media/BGSecao06.4b285af29dbb22534bba.png",
     "static/media/BGSecao05.png": "/morada/static/media/BGSecao05.be98ec6e9862300ad436.png",
     "static/media/BGSecao2.png": "/morada/static/media/BGSecao2.ea70957d154a9674b3c1.png",
@@ -9,11 +9,11 @@
     "static/media/BGSecao03.png": "/morada/static/media/BGSecao03.9a4b08d47f932760be4d.png",
     "static/media/BGSecao1.png": "/morada/static/media/BGSecao1.96108ad06f61a9ce9f76.png",
     "index.html": "/morada/index.html",
-    "main.ff7c56b6.css.map": "/morada/static/css/main.ff7c56b6.css.map",
-    "main.0b5b7e55.js.map": "/morada/static/js/main.0b5b7e55.js.map"
+    "main.d6d7ddd9.css.map": "/morada/static/css/main.d6d7ddd9.css.map",
+    "main.71fe2e62.js.map": "/morada/static/js/main.71fe2e62.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff7c56b6.css",
-    "static/js/main.0b5b7e55.js"
+    "static/css/main.d6d7ddd9.css",
+    "static/js/main.71fe2e62.js"
   ]
 }

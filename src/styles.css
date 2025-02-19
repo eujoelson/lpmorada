@@ -3,15 +3,18 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  height: 100%; /* Garante que o html e body ocupem toda a altura */
+  width: 100%; /* Garante que o html e body ocupem toda a largura */
 }
 
 h6 {
   font-size: 15px;
 }
 .app {
-  display: grid;
+  display: grid; /* Use grid ou flexbox conforme necessário */
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100vh; /* Garante que o contêiner ocupe toda a altura da tela */
+  width: 100%; /* Garante que o contêiner ocupe toda a largura */
   background-color: #ecab81;
 }
 .padding {
@@ -703,7 +706,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-top: 25%;
-    height: 100%;
+    height: 120%;
     //position: Relative;
     //top: -400px;
     /* padding: 40% 0 0 0;
@@ -730,19 +733,24 @@ footer {
   .tam-icone1-mobile {
     width: 100%;
     display: inline;
+    padding: 0 10% 0 0%;
   }
   .tam-text1-mobile {
     width: 90%;
     display: inline;
+    padding: 0 10% 0 0%;
   }
   .tam-text2-mobile {
     width: 100%;
+    padding: 0 10% 0 0%;
   }
   .tam-text-mobile {
     width: 95%;
+    padding: 0 10% 0 0%;
   }
   .tam-icone3-mobile {
     width: 100%;
+    padding: 0 3% 0 0%;
   }
   .icone3 {
     padding: 0;
@@ -906,18 +914,10 @@ footer {
   }
 }
 
-.embla-carousel-container {
-  display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente, se necessário */
-  width: 100%; /* Garante que o contêiner ocupe toda a largura */
-  margin: 0 auto; /* Centraliza o contêiner em relação ao seu pai */
-  padding: 20px 0; /* Adiciona espaçamento vertical, se necessário */
-  box-sizing: border-box; /* Inclui padding e border na largura total */
-}
-
-.embla {
-  max-width: 100%; /* Garante que o carrossel não exceda a largura do contêiner */
-  width: 80%; /* Ajuste conforme necessário para o tamanho desejado */
-  margin: 0 auto; /* Centraliza o carrossel dentro do contêiner */
+/* Reset básico */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Garante que o html e body ocupem toda a altura */
+  width: 100%; /* Garante que o html e body ocupem toda a largura */
 }
