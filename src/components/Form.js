@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-//import Carousel from "react-bootstrap/Carousel";
+import Carousel from "react-bootstrap/Carousel";
 //import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import emailjs from "@emailjs/browser";
 import EmblaCarousel from "./EmblaCarousel";
 import "./embla.css";
 import { ToastContainer, toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 
 const OPTIONS = ({ loop: true }, [Autoplay({ delay: 2000 })]);
 const SLIDE_COUNT = 5;
@@ -45,7 +45,7 @@ function Formulario() {
       )
       .then((result) => {
         console.log("SUCCESS!", result);
-        window.open("/morada/Obrigado", '_parent');
+        window.open("/morada/Obrigado", "_parent");
       })
       .catch((error) => {
         console.log("FAILED...", error.text);
@@ -68,7 +68,11 @@ function Formulario() {
     <div className="sectionForm">
       <ToastContainer />
       <div className="space-form">
-        <img src="../morada/Asset/Secao05/FotoForm2.png" className="img-form-mobile" alt="" />
+        <img
+          src="../morada/Asset/Secao05/FotoForm2.png"
+          className="img-form-mobile"
+          alt=""
+        />
       </div>
       <div className="boxForm" id="form">
         <div className="container">
@@ -79,7 +83,7 @@ function Formulario() {
                 com uma
                 <br /> de nossas vendedoras
               </h3>
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={handleSubmit} className="center">
                 <div className="mb-0">
                   <label htmlFor="nome" className="form-label">
                     Nome*:
@@ -209,10 +213,80 @@ function Formulario() {
         />
       </div>
 
-      <div className="embla-carousel-container">
-        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+      <div className="carousel-container">
+        <Carousel indicators={false}>
+          <Carousel.Item interval={2000}>
+            <div className="card-depoimento">
+              <div className="estrelas">★★★★★</div>
+              <p className="depoimento-texto">
+                Um local verdadeiramente acolhedor e respeitoso em todos os
+                detalhes. É realmente diferenciado dos demais, com um atendimento
+                humanizado e um espaço de despedida digno.
+              </p>
+              <div className="depoimento-autor">
+                <img
+                  src="../morada/Asset/Secao05/da-removebg.png"
+                  alt=""
+                  className="autor-foto"
+                />
+                <span className="autor-nome">Daniel Moura</span>
+              </div>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item interval={2000}>
+            <div className="card-depoimento">
+              <div className="estrelas">★★★★★</div>
+              <p className="depoimento-texto">
+                Ambiente acolhedor, com profissional super qualificados,
+                humanizado por gente que se coloca no lugar da gente, super indico
+                o plano morada da paz, satisfação em fazer parte.
+              </p>
+              <div className="depoimento-autor">
+                <img
+                  src="../morada/Asset/Secao05/ja-removebg.png"
+                  alt=""
+                  className="autor-foto"
+                />
+                <span className="autor-nome">Jaqueline Monike</span>
+              </div>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item interval={2000}>
+            <div className="card-depoimento">
+              <div className="estrelas">★★★★★</div>
+              <p className="depoimento-texto">
+                A Morada da Paz Essencial se destacou de forma impressionante em
+                um dos momentos mais difíceis da minha vida. Eles ofereceram uma
+                experiência que foi além das minhas expectativas, proporcionando
+                uma despedida digna e serena para meu ente querido. O cuidado e a
+                atenção que recebi foram excepcionais. Desde o primeiro contato,
+                senti que estava em boas mãos. Eles criaram um ambiente de paz e
+                conforto, que realmente fez diferença no momento da despedida. A
+                segurança e o respeito com que tudo foi conduzido me trouxeram uma
+                tranquilidade imensa, algo que é essencial em um momento tão
+                delicado. A Morada da Paz Essencial foi um verdadeiro apoio,
+                garantindo que cada detalhe fosse pensado e que o momento de luto
+                fosse respeitado com toda a dignidade possível. Sou profundamente
+                grata por todo o cuidado e profissionalismo com que conduziram
+                tudo.
+              </p>
+              <div className="depoimento-autor">
+                <img
+                  src="../morada/Asset/Secao05/ju-removebg.png"
+                  alt=""
+                  className="autor-foto"
+                />
+                <span className="autor-nome">Julyanne Correia</span>
+              </div>
+            </div>
+          </Carousel.Item>
+        </Carousel>
       </div>
-      
+
+      {/* <div className="embla-carousel-container">
+        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+      </div> */}
+
       <div className="social-links ">
         {/* <img src="../morada/Asset/Secao05/Rodape.png" className="img10" alt="" /> */}
         <img
@@ -249,9 +323,7 @@ function Formulario() {
           </a>
         </div>
       </div>
-      
     </div>
-    
   );
 }
 

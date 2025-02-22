@@ -94,7 +94,7 @@ li {
   //position: Relative;
   //top: -400px;
   padding: 10% 0 0 0;
-  height: 200%;
+  height: 115%;
 }
 div.imgflores {
   width: 53%;
@@ -128,41 +128,41 @@ div.SecBotao2 {
   background-color: #721324; /* Cor de fundo: vermelho */
   color: #f1b158; /* Cor do texto: amarelo dourado */
   border: none; /* Remove bordas */
-  padding: 2px 9px; /* Espaçamento interno */
+  padding: 10px 20px; /* Aumenta o espaçamento interno */
   text-align: center; /* Alinha o texto ao centro */
   text-decoration: none; /* Remove sublinhado do link */
   display: inline-block; /* Permite ajustar largura e altura */
-  font-size: 19px; /* Tamanho da fonte */
+  font-size: 22px; /* Aumenta o tamanho da fonte */
   margin: 4px 2px; /* Margem externa */
   cursor: pointer; /* Muda o cursor ao passar por cima */
-  border-radius: 8px; /* Arredonda os cantos */
+  border-radius: 10px; /* Ajusta o arredondamento dos cantos */
   font-weight: bold; /* Texto em negrito */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Aumenta a sombra ao passar o mouse */
 }
 .botao:hover {
   background-color: #a0522d; /* Cor de fundo: marrom */
   color: #ffffff; /* Cor do texto: branco */
-  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5); /* Sombra mais intensa */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Aumenta a sombra ao passar o mouse */
 }
 .Botao-locais {
   background-color: #721324; /* Cor de fundo: vermelho */
   color: #f1b158; /* Cor do texto: amarelo dourado */
   border: none; /* Remove bordas */
-  padding: 2px 9px; /* Espaçamento interno */
+  padding: 10px 20px; /* Aumenta o espaçamento interno */
   text-align: center; /* Alinha o texto ao centro */
   text-decoration: none; /* Remove sublinhado do link */
   display: inline-block; /* Permite ajustar largura e altura */
-  font-size: 19px; /* Tamanho da fonte */
+  font-size: 22px; /* Aumenta o tamanho da fonte */
   margin: 4px 2px; /* Margem externa */
   cursor: pointer; /* Muda o cursor ao passar por cima */
-  border-radius: 8px; /* Arredonda os cantos */
+  border-radius: 10px; /* Ajusta o arredondamento dos cantos */
   font-weight: bold; /* Texto em negrito */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Aumenta a sombra ao passar o mouse */
 }
 .botao-locais:hover {
   background-color: #a0522d; /* Cor de fundo: marrom */
   color: #ffffff; /* Cor do texto: branco */
-  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5); /* Sombra mais intensa */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Aumenta a sombra ao passar o mouse */
 }
 .box-porque1 {
   text-align: right;
@@ -187,21 +187,21 @@ div.foto-abraco {
   background-color: #721324; /* Cor de fundo: vermelho */
   color: #f1b158; /* Cor do texto: amarelo dourado */
   border: none; /* Remove bordas */
-  padding: 8px 23px; /* Espaçamento interno */
+  padding: 10px 20px; /* Aumenta o espaçamento interno */
   text-align: center; /* Alinha o texto ao centro */
   text-decoration: none; /* Remove sublinhado do link */
   display: inline-block; /* Permite ajustar largura e altura */
-  font-size: 32px; /* Tamanho da fonte */
+  font-size: 22px; /* Aumenta o tamanho da fonte */
   margin: 4px 2px; /* Margem externa */
   cursor: pointer; /* Muda o cursor ao passar por cima */
-  border-radius: 20px; /* Arredonda os cantos */
+  border-radius: 10px; /* Ajusta o arredondamento dos cantos */
   font-weight: bold; /* Texto em negrito */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Aumenta a sombra ao passar o mouse */
 }
 .botao-maior:hover {
   background-color: #a0522d; /* Cor de fundo: marrom */
   color: #ffffff; /* Cor do texto: branco */
-  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5); /* Sombra mais intensa */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Aumenta a sombra ao passar o mouse */
 }
 @media screen and (max-width: 700px) {
   .desk-jazibo {
@@ -328,22 +328,22 @@ div.locais-texto {
   text-align: right;
 }
 .tam-icone1 {
-  width: 65%;
-}
-.tam-icone2 {
   width: 75%;
 }
+.tam-icone2 {
+  width: 85%;
+}
 .tam-icone3 {
-  width: 65%;
+  width: 75%;
 }
 .tam-text1 {
-  width: 80%;
+  width: 90%;
 }
 .tam-text2 {
-  width: 77%;
+  width: 87%;
 }
 .tam-text3 {
-  width: 80%;
+  width: 90%;
 }
 
 div.box4 {
@@ -420,21 +420,21 @@ div.boxForm {
   background-color: #721324; /* Cor de fundo: vermelho */
   color: #f1b158; /* Cor do texto: amarelo dourado */
   border: none; /* Remove bordas */
-  padding: 2px 13px; /* Espaçamento interno */
+  padding: 10px 20px; /* Aumenta o espaçamento interno */
   text-align: center; /* Alinha o texto ao centro */
   text-decoration: none; /* Remove sublinhado do link */
   display: inline-block; /* Permite ajustar largura e altura */
-  font-size: 17px; /* Tamanho da fonte */
+  font-size: 22px; /* Aumenta o tamanho da fonte */
   margin: 4px 2px; /* Margem externa */
   cursor: pointer; /* Muda o cursor ao passar por cima */
-  border-radius: 20px; /* Arredonda os cantos */
+  border-radius: 10px; /* Ajusta o arredondamento dos cantos */
   font-weight: bold; /* Texto em negrito */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Aumenta a sombra ao passar o mouse */
 }
 .botao-form:hover {
   background-color: #a0522d; /* Cor de fundo: marrom */
   color: #ffffff; /* Cor do texto: branco */
-  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5); /* Sombra mais intensa */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Aumenta a sombra ao passar o mouse */
 }
 .morada_logo {
   width: 23%;
@@ -501,11 +501,11 @@ footer {
   display: none;
 }
 .img-titulo-modile {
-    display: none;
-  }
-  .imgabraco-mobile {
-    display: none;
-  }
+  display: none;
+}
+.imgabraco-mobile {
+  display: none;
+}
 @media screen and (max-width: 700px) {
   .header {
     background-color: #055e51;
@@ -540,14 +540,14 @@ footer {
 
   .section1 {
     text-align: center;
-    background-image: url("./bg/BGSecao1.png");
+    background-image: url("./bg/BGSecao1Mobi.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 10% 0 0 0;
     align-items: top;
     //position: Relative;
     //top: -20px;
-    height: 135%;
+    height: 125%;
   }
 
   div.imgflores2 {
@@ -564,7 +564,7 @@ footer {
     padding: 5% 0 5% 0;
     font-size: 10px;
   }
-  
+
   @media screen and (max-width: 700px) {
     .imgflores2 {
       width: 70%;
@@ -613,7 +613,7 @@ footer {
   }
   .section2 {
     text-align: center;
-    background-image: url("./bg/BGSecao2.png");
+    background-image: url("./bg/BGSecao2Mobi.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 30% 0 5% 0;
@@ -675,7 +675,7 @@ footer {
   }
   .section3 {
     text-align: center;
-    background-image: url("./bg/BGSecao03.png");
+    background-image: url("./bg/BGSecao03Mobi.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 0% 0 0 0;
@@ -698,14 +698,15 @@ footer {
 
   .img-texto-dife {
     width: 132%;
+    margin-top: -10%;
   }
 
   .section4 {
     text-align: center;
-    background-image: url("./bg/BGSecao04.png");
+    background-image: url("./bg/BGSecao04Mobi.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding-top: 25%;
+    padding-top: 15%;
     height: 120%;
     //position: Relative;
     //top: -400px;
@@ -768,8 +769,8 @@ footer {
     justify-content: left;
   }
   .sectionForm {
-    background-image: url("./bg/BGSecao05.png");
-    padding: 0% 0 32% 0%;
+    background-image: url("./bg/BGSecao05Mobi.png");
+    padding: 0% 0 13% 0%;
   }
 
   .boxFormSpace {
@@ -815,7 +816,7 @@ footer {
     font-family: initial;
   }
   .img-vaso {
-    width: 70%;
+    width: 60%;
   }
   .imgabraco {
     display: none;
@@ -828,9 +829,7 @@ footer {
     display: block;
     width: 130%;
     text-align: center;
-    margin-top: auto;
-    position: relative;
-    bottom: -120px;
+    margin-top: 55%;
   }
   .imgabraco-mobile {
     display: inline;
@@ -840,10 +839,10 @@ footer {
     margin-left: auto;
     margin-right: 0;
     padding-right: 0;
-    
     right: 0;
+    margin-top: -30px; /* Ajusta a margem superior para subir a imagem */
   }
-  .row>* {
+  .row > * {
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
@@ -853,17 +852,35 @@ footer {
   }
 }
 
+@media screen and (max-width: 700px) {
+  .Botao,
+  .Botao-locais,
+  .Botao-maior,
+  .Botao-form {
+    padding: 6px 12px; /* Aumenta o espaçamento interno */
+    font-size: 12px; /* Aumenta o tamanho da fonte */
+    border-radius: 12px; /* Ajusta o arredondamento dos cantos */
+  }
+
+  .botao:hover,
+  .botao-locais:hover,
+  .botao-maior:hover,
+  .botao-form:hover {
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5); /* Aumenta a sombra ao passar o mouse */
+  }
+}
+
 .card-depoimento {
-  background-color: #004D40; /* Cor verde escura */
+  background-color: #004d40; /* Cor verde escura */
   border-radius: 20px;
   padding: 20px 30px;
   margin: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  max-width: 500px;
+  max-width: 100%;
 }
 
 .estrelas {
-  color: #FFD700; /* Cor amarela para as estrelas */
+  color: #ffd700; /* Cor amarela para as estrelas */
   font-size: 24px;
   margin-bottom: 15px;
 }
@@ -898,27 +915,54 @@ footer {
 @media screen and (max-width: 700px) {
   .card-depoimento {
     padding: 15px 20px;
-    margin: 10px;
+    margin: 40px;
   }
-  
+
   .depoimento-texto {
     font-size: 14px;
   }
-  
+
   .autor-foto {
     width: 35px;
     height: 35px;
   }
-  
+
   .autor-nome {
     font-size: 14px;
   }
+  .title-form {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  form {
+    padding: 0 4% 0 10%;
+  }
+  section {
+    padding: 15px 0;
+  }
+  .social-links {
+    padding: 30% 0 0 0;
+  } 
 }
 
 /* Reset básico */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%; /* Garante que o html e body ocupem toda a altura */
   width: 100%; /* Garante que o html e body ocupem toda a largura */
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  //align-items: center; /* Centraliza verticalmente, se necessário */
+  width: 100%; /* Garante que o contêiner ocupe toda a largura */
+  max-width: 800px; /* Define uma largura máxima */
+  height: 600px; /* Define uma altura fixa */
+  margin: 0 auto; /* Centraliza o contêiner em relação ao seu pai */
+  padding: 0 0; /* Adiciona espaçamento vertical, se necessário */
+  box-sizing: border-box; /* Inclui padding e border na largura total */
 }
