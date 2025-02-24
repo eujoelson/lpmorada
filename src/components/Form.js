@@ -208,7 +208,7 @@ function Formulario() {
       <div className="right">
         <img
           src="../morada/Asset/Secao05/TextoOpiniao.png"
-          className="img20 titulo-opn"
+          className="titulo-opn"
           alt=""
         />
       </div>
