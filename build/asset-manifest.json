@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3bc9704.css",
-    "main.js": "/static/js/main.506811b2.js",
-    "static/media/BGSecao06.png": "/static/media/BGSecao06.4b285af29dbb22534bba.png",
-    "static/media/BGSecao05Mobi.png": "/static/media/BGSecao05Mobi.513dce2c02513e3888cb.png",
-    "static/media/BGSecao2.png": "/static/media/BGSecao2.ea70957d154a9674b3c1.png",
-    "static/media/BGSecao2Mobi.png": "/static/media/BGSecao2Mobi.60c891a9f5cca82176c9.png",
-    "static/media/BGSecao04.png": "/static/media/BGSecao04.6b3afa0f45d58191b506.png",
-    "static/media/BGSecao03.png": "/static/media/BGSecao03.9a4b08d47f932760be4d.png",
-    "static/media/BGSecao04Mobi.png": "/static/media/BGSecao04Mobi.e8538164deaad187c5b5.png",
-    "static/media/BGSecao1.png": "/static/media/BGSecao1.96108ad06f61a9ce9f76.png",
-    "static/media/BGSecao03Mobi.png": "/static/media/BGSecao03Mobi.567894e9a499ce1c7d13.png",
-    "static/media/BGSecao1Mobi.png": "/static/media/BGSecao1Mobi.d3719d1a00e38ff1e518.png",
-    "index.html": "/index.html",
-    "main.b3bc9704.css.map": "/static/css/main.b3bc9704.css.map",
-    "main.506811b2.js.map": "/static/js/main.506811b2.js.map"
+    "main.css": "/morada/static/css/main.c3112d25.css",
+    "main.js": "/morada/static/js/main.ad113030.js",
+    "static/media/BGSecao06.png": "/morada/static/media/BGSecao06.4b285af29dbb22534bba.png",
+    "static/media/BGSecao05Mobi.png": "/morada/static/media/BGSecao05Mobi.513dce2c02513e3888cb.png",
+    "static/media/BGSecao2.png": "/morada/static/media/BGSecao2.ea70957d154a9674b3c1.png",
+    "static/media/BGSecao2Mobi.png": "/morada/static/media/BGSecao2Mobi.60c891a9f5cca82176c9.png",
+    "static/media/BGSecao04.png": "/morada/static/media/BGSecao04.6b3afa0f45d58191b506.png",
+    "static/media/BGSecao03.png": "/morada/static/media/BGSecao03.9a4b08d47f932760be4d.png",
+    "static/media/BGSecao04Mobi.png": "/morada/static/media/BGSecao04Mobi.e8538164deaad187c5b5.png",
+    "static/media/BGSecao1.png": "/morada/static/media/BGSecao1.96108ad06f61a9ce9f76.png",
+    "static/media/BGSecao03Mobi.png": "/morada/static/media/BGSecao03Mobi.567894e9a499ce1c7d13.png",
+    "static/media/BGSecao1Mobi.png": "/morada/static/media/BGSecao1Mobi.d3719d1a00e38ff1e518.png",
+    "index.html": "/morada/index.html",
+    "main.c3112d25.css.map": "/morada/static/css/main.c3112d25.css.map",
+    "main.ad113030.js.map": "/morada/static/js/main.ad113030.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3bc9704.css",
-    "static/js/main.506811b2.js"
+    "static/css/main.c3112d25.css",
+    "static/js/main.ad113030.js"
   ]
 }

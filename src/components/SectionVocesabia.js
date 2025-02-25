@@ -20,6 +20,7 @@ function SectionVocesabia({ title, content, image }) {
               <img src={content} class="img70"></img>
             </div>
             <div class="SecBotao2">
+            
               <Link to="form" class="Botao">
                 Quero Saber Mais
               </Link>

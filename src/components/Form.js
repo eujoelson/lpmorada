@@ -69,7 +69,7 @@ function Formulario() {
       <ToastContainer />
       <div className="space-form">
         <img
-          src="../Asset/Secao05/FotoForm2.png"
+          src="../morada/Asset/Secao05/FotoForm2.png"
           className="img-form-mobile"
           alt=""
         />
@@ -207,7 +207,7 @@ function Formulario() {
       </div>
       <div className="right">
         <img
-          src="../Asset/Secao05/TextoOpiniao.png"
+          src="../morada/Asset/Secao05/TextoOpiniao.png"
           className="titulo-opn"
           alt=""
         />
@@ -220,12 +220,12 @@ function Formulario() {
               <div className="estrelas">★★★★★</div>
               <p className="depoimento-texto">
                 Um local verdadeiramente acolhedor e respeitoso em todos os
-                detalhes. É realmente diferenciado dos demais, com um atendimento
-                humanizado e um espaço de despedida digno.
+                detalhes. É realmente diferenciado dos demais, com um
+                atendimento humanizado e um espaço de despedida digno.
               </p>
               <div className="depoimento-autor">
                 <img
-                  src="../Asset/Secao05/da-removebg.png"
+                  src="../morada/Asset/Secao05/da-removebg.png"
                   alt=""
                   className="autor-foto"
                 />
@@ -238,12 +238,12 @@ function Formulario() {
               <div className="estrelas">★★★★★</div>
               <p className="depoimento-texto">
                 Ambiente acolhedor, com profissional super qualificados,
-                humanizado por gente que se coloca no lugar da gente, super indico
-                o plano morada da paz, satisfação em fazer parte.
+                humanizado por gente que se coloca no lugar da gente, super
+                indico o plano morada da paz, satisfação em fazer parte.
               </p>
               <div className="depoimento-autor">
                 <img
-                  src="../Asset/Secao05/ja-removebg.png"
+                  src="../morada/Asset/Secao05/ja-removebg.png"
                   alt=""
                   className="autor-foto"
                 />
@@ -255,24 +255,16 @@ function Formulario() {
             <div className="card-depoimento">
               <div className="estrelas">★★★★★</div>
               <p className="depoimento-texto">
-                A Morada da Paz Essencial se destacou de forma impressionante em
-                um dos momentos mais difíceis da minha vida. Eles ofereceram uma
-                experiência que foi além das minhas expectativas, proporcionando
-                uma despedida digna e serena para meu ente querido. O cuidado e a
-                atenção que recebi foram excepcionais. Desde o primeiro contato,
-                senti que estava em boas mãos. Eles criaram um ambiente de paz e
-                conforto, que realmente fez diferença no momento da despedida. A
-                segurança e o respeito com que tudo foi conduzido me trouxeram uma
-                tranquilidade imensa, algo que é essencial em um momento tão
-                delicado. A Morada da Paz Essencial foi um verdadeiro apoio,
-                garantindo que cada detalhe fosse pensado e que o momento de luto
-                fosse respeitado com toda a dignidade possível. Sou profundamente
-                grata por todo o cuidado e profissionalismo com que conduziram
-                tudo.
+                A morada da paz Essencial se destacou de forma impressionante em
+                um dos momentos mais dificeis da minha vida. Eles ofereceram uma
+                experiência que foi além das minhas expectativas, proporcionando
+                uma despedida digna e serena para para meu ente querido. O
+                cuidado e a atenção que recebi foram execepcionais. Desde o
+                primeiro contato, senti que estava em boas mãos.
               </p>
               <div className="depoimento-autor">
                 <img
-                  src="../Asset/Secao05/ju-removebg.png"
+                  src="../morada/Asset/Secao05/ju-removebg.png"
                   alt=""
                   className="autor-foto"
                 />
@@ -288,30 +280,30 @@ function Formulario() {
       </div> */}
 
       <div className="social-links ">
-        {/* <img src="../Asset/Secao05/Rodape.png" className="img10" alt="" /> */}
+        {/* <img src="../morada/Asset/Secao05/Rodape.png" className="img10" alt="" /> */}
         <img
-          src="../Asset/Footer/logo_Morada_Essencial.png"
+          src="../morada/Asset/Footer/logo_Morada_Essencial.png"
           className="morada_logo"
           alt="Logo Morada Essencial"
         />
         <div className="social-link3">
           <a href="https://www.instagram.comessencial/">
             <img
-              src="../Asset/Footer/icone-instagran.png"
+              src="../morada/Asset/Footer/icone-instagran.png"
               className="icone-social"
               alt="Instagram"
             />
           </a>
           <a href="https://web.facebook.comessencial">
             <img
-              src="../Asset/Footer/icone-face.png"
+              src="../morada/Asset/Footer/icone-face.png"
               className="icone-social"
               alt="Facebook"
             />
           </a>
           <a href="https://www.youtube.com/channel/UCjyZNcVscw2-eVArGuJUpfw">
             <img
-              src="../Asset/Footer/icone-youtube.png"
+              src="../morada/Asset/Footer/icone-youtube.png"
               className="icone-social"
               alt="YouTube"
             />

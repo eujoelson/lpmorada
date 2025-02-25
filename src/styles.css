@@ -15,7 +15,8 @@ h6 {
   flex-direction: column;
   min-height: 100vh; /* Garante que o contêiner ocupe toda a altura da tela */
   width: 100%; /* Garante que o contêiner ocupe toda a largura */
-  background-color: #ecab81;
+  //background-color: #ecab81;
+  //padding: 0 10% 0 10%;
 }
 .padding {
   padding: 0 5% 0 5%;
@@ -25,15 +26,15 @@ h6 {
 .header {
   background-color: #055e51;
   background-size: 100% 100%;
-  display: flex;
-  justify-content: space-between;
+  //display: flex;
+  //justify-content: space-between;
   align-items: top;
   //position: Relative;
   top: -0px;
   list-style: none;
   margin: 0;
   padding: 0;
-  height: 170%;
+  height: 135%;
   z-index: 99;
 }
 .center {
@@ -45,8 +46,9 @@ h6 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 12%;
-  height: 80%;
+  width: 20%;
+  //height: 50%;
+  margin-top: 12px; /* Adiciona margem superior para descer a logo */
 }
 
 li {
@@ -58,11 +60,12 @@ li {
   background-image: url("./bg/BGSecao1.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 10% 0 0 0;
+  padding: 5% 0 0 0;
   align-items: top;
   //position: Relative;
-  //top: -20px;
-  height: 135%;
+  //display: flex;
+  //top: 20px;
+  height: 145%;
 }
 .section2 {
   text-align: center;
@@ -81,7 +84,7 @@ li {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 14% 0 0 0;
-  height: 134%;
+  height: 120%;
 
   //position: Relative;
   //top: -260px;
@@ -124,16 +127,43 @@ div.SecBotao2 {
   text-align: left;
   padding-top: 10px;
 }
+.carousel-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente, se necessário */
+  width: 100%; /* Garante que o contêiner ocupe toda a largura */
+  max-width: 800px; /* Define uma largura máxima */
+  height: 260px; /* Define uma altura fixa */
+  margin: 0 auto; /* Centraliza o contêiner em relação ao seu pai */
+  padding: 0 0; /* Adiciona espaçamento vertical, se necessário */
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+.BotaoOquee {
+  background-color: #721324; /* Cor de fundo: vermelho */
+  color: #f1b158; /* Cor do texto: amarelo dourado */
+  border: none; /* Remove bordas */
+  padding: 0.5% 2% 0.5% 2%; /* Aumenta o espaçamento interno */
+  text-align: center; /* Alinha o texto ao centro */
+  text-decoration: none; /* Remove sublinhado do link */
+  display: inline-block; /* Permite ajustar largura e altura */
+  font-size: 24px; /* Aumenta o tamanho da fonte */
+  //margin: 4px 2px; /* Margem externa */
+  cursor: pointer; /* Muda o cursor ao passar por cima */
+  border-radius: 10px; /* Ajusta o arredondamento dos cantos */
+  font-weight: bold; /* Texto em negrito */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Aumenta a sombra ao passar o mouse */
+}
+
 .Botao {
   background-color: #721324; /* Cor de fundo: vermelho */
   color: #f1b158; /* Cor do texto: amarelo dourado */
   border: none; /* Remove bordas */
-  padding: 10px 20px; /* Aumenta o espaçamento interno */
+  padding: 1% 5% 1% 5%; /* Aumenta o espaçamento interno */
   text-align: center; /* Alinha o texto ao centro */
   text-decoration: none; /* Remove sublinhado do link */
   display: inline-block; /* Permite ajustar largura e altura */
   font-size: 22px; /* Aumenta o tamanho da fonte */
-  margin: 4px 2px; /* Margem externa */
+  //margin: 4px 2px; /* Margem externa */
   cursor: pointer; /* Muda o cursor ao passar por cima */
   border-radius: 10px; /* Ajusta o arredondamento dos cantos */
   font-weight: bold; /* Texto em negrito */
@@ -272,7 +302,7 @@ div.locais-texto {
 }
 
 .titulo-dife {
-  width: 40%;
+  width: 55%;
 }
 .tam-icone1-mobile {
   display: none;
@@ -420,12 +450,12 @@ div.boxForm {
   background-color: #721324; /* Cor de fundo: vermelho */
   color: #f1b158; /* Cor do texto: amarelo dourado */
   border: none; /* Remove bordas */
-  padding: 10px 20px; /* Aumenta o espaçamento interno */
+  padding: 1% 5% 1% 5%; /* Aumenta o espaçamento interno */
   text-align: center; /* Alinha o texto ao centro */
   text-decoration: none; /* Remove sublinhado do link */
   display: inline-block; /* Permite ajustar largura e altura */
-  font-size: 22px; /* Aumenta o tamanho da fonte */
-  margin: 4px 2px; /* Margem externa */
+  font-size: 17px; /* Aumenta o tamanho da fonte */
+  //margin: 4px 2px; /* Margem externa */
   cursor: pointer; /* Muda o cursor ao passar por cima */
   border-radius: 10px; /* Ajusta o arredondamento dos cantos */
   font-weight: bold; /* Texto em negrito */
@@ -505,6 +535,13 @@ footer {
 }
 .imgabraco-mobile {
   display: none;
+}
+.img-estrela {
+  width: 65%;
+}
+.texto-estrela {
+  width: 100%;
+  padding: 3% 5% 0% 5%;
 }
 @media screen and (max-width: 700px) {
   .header {
@@ -592,12 +629,12 @@ footer {
     background-color: #721324; /* Cor de fundo: vermelho */
     color: #f1b158; /* Cor do texto: amarelo dourado */
     border: none; /* Remove bordas */
-    padding: 5px 10px; /* Espaçamento interno */
+    padding: 1% 5% 1% 5%; /* Espaçamento interno */
     text-align: center; /* Alinha o texto ao centro */
     text-decoration: none; /* Remove sublinhado do link */
     display: inline-block; /* Permite ajustar largura e altura */
     font-size: 12px; /* Tamanho da fonte */
-    margin: 4px 2px; /* Margem externa */
+    //margin: 4px 2px; /* Margem externa */
     cursor: pointer; /* Muda o cursor ao passar por cima */
     border-radius: 5px; /* Arredonda os cantos */
     font-weight: bold; /* Texto em negrito */
@@ -855,7 +892,7 @@ footer {
   .Botao-locais,
   .Botao-maior,
   .Botao-form {
-    padding: 6px 12px; /* Aumenta o espaçamento interno */
+    //padding: 6px 12px; /* Aumenta o espaçamento interno */
     font-size: 12px; /* Aumenta o tamanho da fonte */
     border-radius: 12px; /* Ajusta o arredondamento dos cantos */
   }
@@ -952,10 +989,25 @@ footer {
     align-items: center; /* Centraliza verticalmente, se necessário */
     width: 100%; /* Garante que o contêiner ocupe toda a largura */
     max-width: 800px; /* Define uma largura máxima */
-    height: 600px; /* Define uma altura fixa */
+    height: 320px; /* Define uma altura fixa */
     margin: 0 auto; /* Centraliza o contêiner em relação ao seu pai */
     padding: 0 0; /* Adiciona espaçamento vertical, se necessário */
     box-sizing: border-box; /* Inclui padding e border na largura total */
+  }
+  .BotaoOquee {
+    background-color: #721324; /* Cor de fundo: vermelho */
+    color: #f1b158; /* Cor do texto: amarelo dourado */
+    border: none; /* Remove bordas */
+    padding: 0.5% 2% 0.5% 2%; /* Aumenta o espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+    text-decoration: none; /* Remove sublinhado do link */
+    display: inline-block; /* Permite ajustar largura e altura */
+    font-size: 14px; /* Aumenta o tamanho da fonte */
+    //margin: 4px 2px; /* Margem externa */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+    border-radius: 10px; /* Ajusta o arredondamento dos cantos */
+    font-weight: bold; /* Texto em negrito */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Aumenta a sombra ao passar o mouse */
   }
 }
 
@@ -967,15 +1019,7 @@ body {
   height: 100%; /* Garante que o html e body ocupem toda a altura */
   width: 100%; /* Garante que o html e body ocupem toda a largura */
 }
-
-.carousel-container {
-  display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente, se necessário */
-  width: 100%; /* Garante que o contêiner ocupe toda a largura */
-  max-width: 800px; /* Define uma largura máxima */
-  height: 600px; /* Define uma altura fixa */
-  margin: 0 auto; /* Centraliza o contêiner em relação ao seu pai */
-  padding: 0 0; /* Adiciona espaçamento vertical, se necessário */
-  box-sizing: border-box; /* Inclui padding e border na largura total */
+.mb-1 {
+  /* margin-bottom: .25rem !important; */
 }
+

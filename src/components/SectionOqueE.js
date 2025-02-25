@@ -80,14 +80,14 @@ function SectionOqueE({
           </div>
         </div>
         <div class="box-porque1 box">
-          <img src={pq} class="img50 img-estrela"></img>
+          <img src={pq} class="img-estrela"></img>
         </div>
         <div class="box-porque2 box">
-          <img src={patrimonio} class="img80 texto-estrela"></img>
+          <img src={patrimonio} class="texto-estrela"></img>
         </div>
         <div class="center">
           <div class="SecBotao">
-            <Link to="form" class="Botao">
+            <Link to="form" class="BotaoOquee">
               Quero Saber Mais
             </Link>
           </div>

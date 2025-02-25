@@ -16,42 +16,42 @@ function Home() {
     <div className="app">
       <Header />
       <SectionVocesabia
-        title="../Asset/Secao01/Titulo.png"
-        content="../Asset/Secao01/Texto2.png"
-        image="../Asset/Secao01/ImagemJazigo.png"
+        title="../morada/Asset/Secao01/Titulo.png"
+        content="../morada/Asset/Secao01/Texto2.png"
+        image="../morada/Asset/Secao01/ImagemJazigo.png"
       />
       <SectionOqueE
         title="O que é o Jazigo Parque?"
-        image="../Asset/Secao02/ilutracaoJazigo.png"
-        image2="../Asset/Secao02/ilutracaoJazigo-mobile.png"
-        descricao="../Asset/Secao02/jazibo-descricao.png"
-        content="../Asset/Secao02/TextoOqueE.png"
-        locais="../Asset/Secao02/Locais.png"
-        rm="../Asset/Secao02/RNFoto.png"
-        rmTexto="../Asset/Secao02/RNTexto.png"
-        Guarabira="../Asset/Secao02/GuarabiraFoto.png"
-        GuarabiraTexto="../Asset/Secao02/GuarabiraTexto.png"
-        pq="../Asset/Secao02/TextoPorque.png"
-        patrimonio="../Asset/Secao02/TextoDescritivoIcon.png"
+        image="../morada/Asset/Secao02/ilutracaoJazigo.png"
+        image2="../morada/Asset/Secao02/ilutracaoJazigo-mobile.png"
+        descricao="../morada/Asset/Secao02/jazibo-descricao.png"
+        content="../morada/Asset/Secao02/TextoOqueE.png"
+        locais="../morada/Asset/Secao02/Locais.png"
+        rm="../morada/Asset/Secao02/RNFoto.png"
+        rmTexto="../morada/Asset/Secao02/RNTexto.png"
+        Guarabira="../morada/Asset/Secao02/GuarabiraFoto.png"
+        GuarabiraTexto="../morada/Asset/Secao02/GuarabiraTexto.png"
+        pq="../morada/Asset/Secao02/TextoPorque.png"
+        patrimonio="../morada/Asset/Secao02/TextoDescritivoIcon.png"
       />
       <SectionDiferencias
-        title="../Asset/Secao03/TextoTitulo.png"
-        image="../Asset/Secao03/Abraco.png"
-        content="../Asset/Secao03/TextoDescritivo2.png"
+        title="../morada/Asset/Secao03/TextoTitulo.png"
+        image="../morada/Asset/Secao03/Abraco.png"
+        content="../morada/Asset/Secao03/TextoDescritivo2.png"
       />
       <SectionBeneficios
-        title="../Asset/Secao04/TituloSecao.png"
-        titleMemoria="../Asset/Secao04/Logo_MoradaMemoria.png"
-        titleMemoriaMobile="../Asset/Secao04_da_paz.png"
-        contentMemoria="../Asset/Secao04/TextoMoradaMemoria.png"
-        titleCuidado="../Asset/Secao04/Logo_MoradaCuidado.png"
-        titleCuidadoMobile="../Asset/Secao04_da_paz_cuidados_com.png"
-        contentCuidado="../Asset/Secao04/Texto_MoradaCuidado.png"
-        titleDescontos="../Asset/Secao04/Logo_ClubeDescontos.png"
-        clubeDesconto="../Asset/Secao04/clube_desconto_texto.png"
-        contentDescontos="../Asset/Secao04/TextoClubeDescontos.png"
+        title="../morada/Asset/Secao04/TituloSecao.png"
+        titleMemoria="../morada/Asset/Secao04/Logo_MoradaMemoria.png"
+        titleMemoriaMobile="../morada/Asset/Secao04/Morada_da_paz.png"
+        contentMemoria="../morada/Asset/Secao04/TextoMoradaMemoria.png"
+        titleCuidado="../morada/Asset/Secao04/Logo_MoradaCuidado.png"
+        titleCuidadoMobile="../morada/Asset/Secao04/Morada_da_paz_cuidados_com.png"
+        contentCuidado="../morada/Asset/Secao04/Texto_MoradaCuidado.png"
+        titleDescontos="../morada/Asset/Secao04/Logo_ClubeDescontos.png"
+        clubeDesconto="../morada/Asset/Secao04/clube_desconto_texto.png"
+        contentDescontos="../morada/Asset/Secao04/TextoClubeDescontos.png"
       />
-      <Formulario image="../Asset/Secao05/Foto.png" />
+      <Formulario image="../morada/Asset/Secao05/Foto.png" />
     </div>
   );
 }
