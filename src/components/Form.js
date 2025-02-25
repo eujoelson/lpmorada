@@ -45,11 +45,11 @@ function Formulario() {
       )
       .then((result) => {
         console.log("SUCCESS!", result);
-        window.open("/morada/Obrigado", "_parent");
+        window.open("/Obrigado", "_parent");
       })
       .catch((error) => {
         console.log("FAILED...", error.text);
-        window.open("/morada/PageErro");
+        window.open("/PageErro");
       });
 
     // Aqui você pode adicionar a lógica para enviar os dados do formulário
@@ -69,7 +69,7 @@ function Formulario() {
       <ToastContainer />
       <div className="space-form">
         <img
-          src="../morada/Asset/Secao05/FotoForm2.png"
+          src="../Asset/Secao05/FotoForm2.png"
           className="img-form-mobile"
           alt=""
         />
@@ -207,7 +207,7 @@ function Formulario() {
       </div>
       <div className="right">
         <img
-          src="../morada/Asset/Secao05/TextoOpiniao.png"
+          src="../Asset/Secao05/TextoOpiniao.png"
           className="titulo-opn"
           alt=""
         />
@@ -225,7 +225,7 @@ function Formulario() {
               </p>
               <div className="depoimento-autor">
                 <img
-                  src="../morada/Asset/Secao05/da-removebg.png"
+                  src="../Asset/Secao05/da-removebg.png"
                   alt=""
                   className="autor-foto"
                 />
@@ -243,7 +243,7 @@ function Formulario() {
               </p>
               <div className="depoimento-autor">
                 <img
-                  src="../morada/Asset/Secao05/ja-removebg.png"
+                  src="../Asset/Secao05/ja-removebg.png"
                   alt=""
                   className="autor-foto"
                 />
@@ -272,7 +272,7 @@ function Formulario() {
               </p>
               <div className="depoimento-autor">
                 <img
-                  src="../morada/Asset/Secao05/ju-removebg.png"
+                  src="../Asset/Secao05/ju-removebg.png"
                   alt=""
                   className="autor-foto"
                 />
@@ -288,30 +288,30 @@ function Formulario() {
       </div> */}
 
       <div className="social-links ">
-        {/* <img src="../morada/Asset/Secao05/Rodape.png" className="img10" alt="" /> */}
+        {/* <img src="../Asset/Secao05/Rodape.png" className="img10" alt="" /> */}
         <img
-          src="../morada/Asset/Footer/logo_Morada_Essencial.png"
+          src="../Asset/Footer/logo_Morada_Essencial.png"
           className="morada_logo"
           alt="Logo Morada Essencial"
         />
         <div className="social-link3">
-          <a href="https://www.instagram.com/moradaessencial/">
+          <a href="https://www.instagram.comessencial/">
             <img
-              src="../morada/Asset/Footer/icone-instagran.png"
+              src="../Asset/Footer/icone-instagran.png"
               className="icone-social"
               alt="Instagram"
             />
           </a>
-          <a href="https://web.facebook.com/moradaessencial">
+          <a href="https://web.facebook.comessencial">
             <img
-              src="../morada/Asset/Footer/icone-face.png"
+              src="../Asset/Footer/icone-face.png"
               className="icone-social"
               alt="Facebook"
             />
           </a>
           <a href="https://www.youtube.com/channel/UCjyZNcVscw2-eVArGuJUpfw">
             <img
-              src="../morada/Asset/Footer/icone-youtube.png"
+              src="../Asset/Footer/icone-youtube.png"
               className="icone-social"
               alt="YouTube"
             />

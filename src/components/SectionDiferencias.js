@@ -8,7 +8,7 @@ function SectionDiferencias({ title, content, image }) {
           <div class="col">
             <div class="texto-difereciais">
               <img
-                src="../morada/Asset/Secao03/TextoTituloMob.png"
+                src="../Asset/Secao03/TextoTituloMob.png"
                 class="img-titulo-modile"
               ></img>
             </div>
@@ -16,7 +16,7 @@ function SectionDiferencias({ title, content, image }) {
           <div class="col">
             <div class="foto-abraco">
               <img
-                src="../morada/Asset/Secao03/AbracoMob.png"
+                src="../Asset/Secao03/AbracoMob.png"
                 class="imgabraco-mobile"
               ></img>
             </div>
