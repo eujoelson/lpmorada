@@ -287,14 +287,14 @@ function Formulario() {
           alt="Logo Morada Essencial"
         />
         <div className="social-link3">
-          <a href="https://www.instagram.comessencial/">
+          <a href="https://www.instagram.com/moradaessencial/">
             <img
               src="../morada/Asset/Footer/icone-instagran.png"
               className="icone-social"
               alt="Instagram"
             />
           </a>
-          <a href="https://web.facebook.comessencial">
+          <a href="https://web.facebook.com/moradaessencial">
             <img
               src="../morada/Asset/Footer/icone-face.png"
               className="icone-social"

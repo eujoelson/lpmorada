@@ -15,7 +15,7 @@ h6 {
   flex-direction: column;
   min-height: 100vh; /* Garante que o contêiner ocupe toda a altura da tela */
   width: 100%; /* Garante que o contêiner ocupe toda a largura */
-  //background-color: #ecab81;
+  background-color: #ecab81;
   //padding: 0 10% 0 10%;
 }
 .padding {
@@ -555,10 +555,11 @@ footer {
     list-style: none;
     margin: 0;
     padding: 0;
-    /* height: 260%; */
+    height: 150%; 
   }
   .header-logo {
     width: 25%;
+    height:100%;
   }
 
   div.box {
