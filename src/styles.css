@@ -80,7 +80,7 @@ li {
 }
 .section3 {
   text-align: center;
-  background-image: url("./bg/BGSecao03.png");
+  background-image: url("./bg/BGSecao030.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 14% 0 0 0;
@@ -559,7 +559,7 @@ footer {
   }
   .header-logo {
     width: 25%;
-    height:100%;
+    height: 55%;
   }
 
   div.box {
@@ -713,11 +713,11 @@ footer {
   }
   .section3 {
     text-align: center;
-    background-image: url("./bg/BGSecao03Mobi.png");
+    background-image: url("./bg/BGSecao03Mobi2.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 0% 0 0 0;
-    height: 140%;
+    height: 110%;
 
     //position: Relative;
     //top: -260px;

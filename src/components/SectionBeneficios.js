@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function SectionBeneficios({
   title,
@@ -22,7 +22,9 @@ function SectionBeneficios({
         <div class="row linha-1">
           <div class="col-5 col-icone">
             <div class="box icone1">
-              <img src={titleMemoria} class="tam-icone1"></img>
+              <a href="https://www.moradadamemoria.com">
+                <img src={titleMemoria} class="tam-icone1"></img>
+              </a>
             </div>
           </div>
           <div class="col-7">
@@ -36,7 +38,9 @@ function SectionBeneficios({
         <div class="row linha-1-mobile">
           <div class="col-12">
             <div class="box icone1">
-              <img src={titleMemoriaMobile} class="tam-icone1-mobile"></img>
+              <a className="texto-link" href="https://www.moradadamemoria.com">
+                <img src={titleMemoriaMobile} class="tam-icone1-mobile"></img>
+              </a>
             </div>
           </div>
           {/* <div class="col-12">
@@ -55,7 +59,12 @@ function SectionBeneficios({
           </div>
           <div class="col-5">
             <div class="box icone2">
-              <img src={titleDescontos} class="tam-icone2"></img>
+              <a
+                className="texto-link"
+                href="https://clubededescontos.moradadapaz.com.br/"
+              >
+                <img src={titleDescontos} class="tam-icone2"></img>
+              </a>
             </div>
           </div>
         </div>
@@ -64,7 +73,12 @@ function SectionBeneficios({
         <div class="row linha-2-mobile">
           <div class="col-12">
             <div class="box text-icone2">
-              <img src={clubeDesconto} class="tam-text2-mobile"></img>
+              <a
+                className="texto-link"
+                href="https://clubededescontos.moradadapaz.com.br/"
+              >
+                <img src={clubeDesconto} class="tam-text2-mobile"></img>
+              </a>
             </div>
           </div>
         </div>
@@ -73,7 +87,12 @@ function SectionBeneficios({
         <div class="row linha-3">
           <div class="col-5 col-icone">
             <div class="icone3">
-              <img src={titleCuidado} class="tam-icone3"></img>
+              <a
+                className="texto-link"
+                href="https://moradadocuidado.com.br/"
+              >
+                <img src={titleCuidado} class="tam-icone3"></img>
+              </a>
             </div>
           </div>
           <div class="col-7">
@@ -86,7 +105,12 @@ function SectionBeneficios({
         <div class="row linha-3-mobile">
           <div class="col-12">
             <div class="icone3">
-              <img src={titleCuidadoMobile} class="tam-icone3-mobile"></img>
+              <a
+                className="texto-link"
+                href="https://moradadocuidado.com.br/"
+              >
+                <img src={titleCuidadoMobile} class="tam-icone3-mobile"></img>
+              </a>
             </div>
           </div>
         </div>

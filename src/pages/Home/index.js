@@ -35,7 +35,7 @@ function Home() {
         patrimonio="../morada/Asset/Secao02/TextoDescritivoIcon.png"
       />
       <SectionDiferencias
-        title="../morada/Asset/Secao03/TextoTitulo.png"
+        title="../morada/Asset/Secao03/TextoTitulo2.png"
         image="../morada/Asset/Secao03/Abraco.png"
         content="../morada/Asset/Secao03/TextoDescritivo2.png"
       />

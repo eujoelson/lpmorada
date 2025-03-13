@@ -8,7 +8,7 @@ function SectionDiferencias({ title, content, image }) {
           <div class="col">
             <div class="texto-difereciais">
               <img
-                src="../morada/Asset/Secao03/TextoTituloMob.png"
+                src="../morada/Asset/Secao03/TextoTituloMob2.png"
                 class="img-titulo-modile"
               ></img>
             </div>
